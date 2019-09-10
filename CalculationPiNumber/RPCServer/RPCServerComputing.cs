@@ -81,7 +81,7 @@ namespace RPCServer
                 }
                 else
                 {
-                    Console.WriteLine($" [.] Current calculating: Id: {message.Id}, precision: {message.Precision}, please wait about 5 seconds");
+                    Console.WriteLine($" [.] Current calculating: Id: {message.Id}, precision: {message.Precision}, please wait about 20 seconds");
                     result = CalculatePiQuick(7500, message.Precision);
                 }
 
